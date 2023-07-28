@@ -9,8 +9,6 @@
 
 import * as pathLib from 'path';
 import * as vscode from 'vscode';
-
-
 import { GitErrorCodes } from './api/api1';
 import { CommentReply, resolveCommentHandler } from './commentHandlerResolver';
 import { IComment } from './common/comment';
