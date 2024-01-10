@@ -3,6 +3,7 @@ import { Disposable } from 'vscode';
 
 export { Disposable } from 'vscode';
 
+
 export interface RemoteProvider {
 	readonly id: string;
 	readonly name: string;

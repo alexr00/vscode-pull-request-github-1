@@ -4,6 +4,7 @@ import { ExtensionContext, Uri, SecretStorage, Event, SecretStorageChangeEvent }
 
 import { InMemoryMemento } from './inMemoryMemento';
 
+
 export class MockExtensionContext implements ExtensionContext {
 	extensionPath: string;
 

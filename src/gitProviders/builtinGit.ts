@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import { APIState, GitAPI, GitExtension, PublishEvent } from '../@types/git';
 import { IGit, Repository } from '../api/api';

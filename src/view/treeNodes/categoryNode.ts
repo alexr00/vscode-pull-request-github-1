@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import { AuthenticationError } from '../../common/authentication';
 import { PR_SETTINGS_NAMESPACE, QUERIES } from '../../common/settingKeys';

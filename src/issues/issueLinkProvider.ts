@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import * as vscode from 'vscode';
+
 import { EDITOR, WORD_WRAP } from '../common/settingKeys';
 import { ReposManagerState } from '../github/folderRepositoryManager';
 import { RepositoriesManager } from '../github/repositoriesManager';

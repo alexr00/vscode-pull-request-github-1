@@ -3,6 +3,7 @@ import { TimelineEventsResponse } from '../../../github/graphql';
 
 import { RateLimitBuilder } from './rateLimitBuilder';
 
+
 type Repository = TimelineEventsResponse['repository'];
 type PullRequest = Repository['pullRequest'];
 type TimelineConn = PullRequest['timelineItems'];

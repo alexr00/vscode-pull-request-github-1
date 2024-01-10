@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { createBuilderClass } from '../base';
 import { OctokitCommon } from '../../../github/common';
 import { CheckState, PullRequestChecks } from '../../../github/interface';

@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { default as assert } from 'assert';
 import * as ssh from '../../env/node/ssh';
 import { Protocol, ProtocolType } from '../../common/protocol';

@@ -4,9 +4,11 @@
  *--------------------------------------------------------------------------------------------*/
 import * as vscode from 'vscode';
 
+
 export const PR_TREE = 'PullRequestTree';
 
 class Log {
+
 	private _outputChannel: vscode.LogOutputChannel;
 	private _disposable: vscode.Disposable;
 	private _activePerfMarkers: Map<string, number> = new Map();

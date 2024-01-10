@@ -3,6 +3,7 @@ import { RepositoryBuilder } from './repoBuilder';
 import { createBuilderClass } from '../base';
 import { OctokitCommon } from '../../../github/common';
 
+
 type RefUnion = OctokitCommon.PullsListResponseItemHead & OctokitCommon.PullsListResponseItemBase;
 
 export const RefBuilder = createBuilderClass<RefUnion>()({

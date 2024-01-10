@@ -3,13 +3,15 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import { DiffChangeType, DiffHunk } from './diffHunk';
 import { getZeroBased } from './diffPositionMapping';
 import Logger from './logger';
 
 /**
- * For the base file, the only commentable areas are deleted lines. For the modified file,
+ * For the base file, the on
+ * ly commentable areas are deleted lines. For the modified file,
  * comments can be added on any part of the diff hunk.
  * @param diffHunks The diff hunks of the file
  * @param isBase Whether the commenting ranges are calculated for the base or modified file

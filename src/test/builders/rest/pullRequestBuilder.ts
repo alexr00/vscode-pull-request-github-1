@@ -3,6 +3,7 @@ import { RefBuilder } from './refBuilder';
 import { createLink, createBuilderClass } from '../base';
 import { OctokitCommon } from '../../../github/common';
 
+
 export type PullRequestUnion = OctokitCommon.PullsGetResponseData;
 type Links = PullRequestUnion['_links'];
 type Milestone = PullRequestUnion['milestone'];

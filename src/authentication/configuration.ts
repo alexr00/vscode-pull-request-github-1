@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 
 export interface IHostConfiguration {
@@ -10,7 +11,8 @@ export interface IHostConfiguration {
 	token: string | undefined;
 }
 
-let USE_TEST_SERVER = false;
+let USE_TEST_SERVER = fals
+e;
 
 export const HostHelper = class {
 	public static async getApiHost(host: IHostConfiguration | vscode.Uri): Promise<vscode.Uri> {

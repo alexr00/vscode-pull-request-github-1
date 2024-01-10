@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 import * as vscode from 'vscode';
 
+
 export namespace git {
 
 	export async function checkout(): Promise<void> {

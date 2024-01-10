@@ -3,6 +3,7 @@ export declare type BrowserType = 'chromium' | 'firefox' | 'webkit';
 export declare type VSCodeVersion = 'insiders' | 'stable' | 'sources';
 export interface Options {
     /**
+
      * Browser to run the test against: 'chromium' | 'firefox' | 'webkit'
      */
     browserType: BrowserType;

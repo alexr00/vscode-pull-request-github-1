@@ -3,6 +3,7 @@ import { Octokit } from '@octokit/rest';
 import {
 	ApolloQueryResult,
 	QueryOptions,
+
 	DocumentNode,
 	OperationVariables,
 	MutationOptions,

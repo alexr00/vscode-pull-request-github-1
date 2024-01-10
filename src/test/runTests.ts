@@ -3,6 +3,7 @@ import { runTests } from '@vscode/test-electron';
 
 async function go() {
 	try {
+
 		const extensionDevelopmentPath = path.resolve(__dirname, '../../../');
 		const extensionTestsPath = path.resolve(__dirname, './');
 		console.log(extensionDevelopmentPath, extensionTestsPath);

@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
+
 import * as pathLib from 'path';
 import * as vscode from 'vscode';
 import { Repository } from './api/api';

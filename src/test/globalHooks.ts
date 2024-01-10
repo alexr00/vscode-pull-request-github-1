@@ -3,6 +3,7 @@
 import * as util from 'util';
 
 const original = {
+
 	log: console.log,
 	error: console.error,
 };

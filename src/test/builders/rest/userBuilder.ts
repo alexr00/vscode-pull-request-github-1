@@ -3,6 +3,7 @@ import { OctokitCommon } from '../../../github/common';
 
 type UserUnion =
 	| OctokitCommon.PullsListResponseItemUser
+
 	| OctokitCommon.PullsListResponseItemAssignee
 	| OctokitCommon.PullsListResponseItemAssigneesItem
 	| OctokitCommon.PullsListResponseItemRequestedReviewersItem

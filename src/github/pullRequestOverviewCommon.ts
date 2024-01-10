@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
+
 import * as vscode from 'vscode';
 import {
 	DEFAULT_DELETION_METHOD,

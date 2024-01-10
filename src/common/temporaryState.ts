@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import * as vscode from 'vscode';
+
 import Logger from './logger';
 import { dispose } from './utils';
 
@@ -11,6 +12,7 @@ let tempState: TemporaryState | undefined;
 export class TemporaryState extends vscode.Disposable {
 	private readonly SUBPATH = 'temp';
 	private readonly disposables: vscode.Disposable[] = [];
+
 	private readonly persistInSessionDisposables: vscode.Disposable[] = [];
 
 	constructor(private _storageUri: vscode.Uri) {

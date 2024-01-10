@@ -3,6 +3,7 @@
  * documentation about usage. The comments in here are intended to provide guidance in understanding the implementation.
  *
  * This file is divided into two major sections. The first is devoted to defining types that are sufficiently expressive to capture the
+
  * shape of the dynamically generated {@link Builder} classes at compile time, and to lean on type inference to allow builder behavior
  * to be specified concisely and consistently. The second section is used to construct the {@link BuilderClass} prototypes at run-time
  * to match those types.

@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 export interface ITelemetry {
 	sendTelemetryEvent(
 		eventName: string,
@@ -11,6 +12,7 @@ export interface ITelemetry {
 		},
 		measurements?: {
 			[key: string]: number;
+			
 		},
 	): void;
 	sendTelemetryErrorEvent(

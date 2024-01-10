@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { Repository } from '../api/api';
 import { getEnterpriseUri, isEnterprise } from '../github/utils';
 import { AuthProvider, GitHubServerType } from './authentication';
@@ -15,6 +16,7 @@ export class Remote {
 	public get owner(): string {
 		return this.gitProtocol.owner;
 	}
+	
 	public get repositoryName(): string {
 		return this.gitProtocol.repositoryName;
 	}

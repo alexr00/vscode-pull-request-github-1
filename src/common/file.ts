@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { DiffHunk } from './diffHunk';
 
 export enum GitChangeType {
@@ -14,6 +15,7 @@ export enum GitChangeType {
 	TYPE,
 	UNKNOWN,
 	UNMERGED,
+
 }
 
 export interface SimpleFileChange {
