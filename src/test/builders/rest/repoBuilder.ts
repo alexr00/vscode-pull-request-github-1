@@ -4,6 +4,7 @@ import { createBuilderClass, createLink } from '../base';
 import { OctokitCommon } from '../../../github/common';
 import { ForkDetails } from '../../../github/githubRepository';
 
+
 export type RepoUnion = OctokitCommon.ReposGetResponseData &
 	OctokitCommon.PullsListResponseItemHeadRepo &
 	OctokitCommon.PullsListResponseItemBaseRepo;

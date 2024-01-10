@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as path from 'path';
 import * as vscode from 'vscode';
 
@@ -11,6 +12,7 @@ export class Resource {
 
 	static initialize(context: vscode.ExtensionContext) {
 		Resource.icons = {
+			
 			reactions: {
 				THUMBS_UP: context.asAbsolutePath(path.join('resources', 'icons', 'reactions', 'thumbs_up.png')),
 				THUMBS_DOWN: context.asAbsolutePath(path.join('resources', 'icons', 'reactions', 'thumbs_down.png')),

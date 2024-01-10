@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import { resolve } from '../env/node/ssh';
 import Logger from './logger';
@@ -12,6 +13,7 @@ export enum ProtocolType {
 	Local,
 	HTTP,
 	SSH,
+
 	GIT,
 	OTHER,
 }

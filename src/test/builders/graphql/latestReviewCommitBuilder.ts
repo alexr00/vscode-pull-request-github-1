@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { createBuilderClass, createLink } from '../base';
 import { LatestReviewCommitResponse } from '../../../github/graphql';
 

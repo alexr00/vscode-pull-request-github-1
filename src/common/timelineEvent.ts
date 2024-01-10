@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { IAccount, IActor } from '../github/interface';
 import { IComment } from './comment';
 

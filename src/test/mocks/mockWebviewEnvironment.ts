@@ -3,6 +3,7 @@ import { Suite } from 'mocha';
 
 interface WebviewEnvironmentSetters {
 	stateSetter(newState: any): void;
+
 	stateGetter(): any;
 	messageAdder(newMessage: any): void;
 }

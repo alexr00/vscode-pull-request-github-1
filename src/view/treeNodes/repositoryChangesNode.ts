@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import Logger, { PR_TREE } from '../../common/logger';
 import { AUTO_REVEAL, EXPLORER } from '../../common/settingKeys';

@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import { parse as parseConfig } from 'ssh-config';
+
 import Logger from '../../common/logger';
 
 const SSH_URL_RE = /^(?:([^@:]+)@)?([^:/]+):?(.+)$/;

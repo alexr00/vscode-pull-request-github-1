@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 
 export namespace contexts {
@@ -12,7 +13,8 @@ export namespace contexts {
 	export const REPOS_NOT_IN_REVIEW_MODE = 'github:reposNotInReviewMode';
 	export const REPOS_IN_REVIEW_MODE = 'github:reposInReviewMode';
 	export const ACTIVE_PR_COUNT = 'github:activePRCount';
-	export const LOADING_PRS_TREE = 'github:loadingPrsTree';
+	export const LOAD
+	ING_PRS_TREE = 'github:loadingPrsTree';
 	export const LOADING_ISSUES_TREE = 'github:loadingIssuesTree';
 	export const CREATE_PR_PERMISSIONS = 'github:createPrPermissions';
 }

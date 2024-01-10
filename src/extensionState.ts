@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 import * as vscode from 'vscode';
+
 import { IAccount } from './github/interface';
 
 // Synced keys
@@ -17,6 +18,8 @@ export interface RepoState {
 	mentionableUsers?: IAccount[];
 	stateModifiedTime?: number;
 }
+
+
 
 export interface ReposState {
 	repos: { [ownerAndRepo: string]: RepoState };

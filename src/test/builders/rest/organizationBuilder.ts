@@ -3,6 +3,7 @@ import { OctokitCommon } from '../../../github/common';
 
 export const OrganizationBuilder = createBuilderClass<OctokitCommon.ReposGetResponseOrganization>()({
 	login: { default: 'octocat' },
+
 	id: { default: 1 },
 	node_id: { default: 'MDQ6VXNlcjE=' },
 	avatar_url: { default: 'https://github.com/images/error/octocat_happy.gif' },

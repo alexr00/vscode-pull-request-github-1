@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import { APIState, PublishEvent } from '../@types/git';
 import Logger from '../common/logger';
@@ -13,6 +14,7 @@ export const enum RefType {
 	Head,
 	RemoteHead,
 	Tag,
+	
 }
 
 export const enum GitErrorCodes {

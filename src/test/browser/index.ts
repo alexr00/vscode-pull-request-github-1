@@ -4,6 +4,7 @@ require('mocha/mocha');
 import { mockWebviewEnvironment } from '../mocks/mockWebviewEnvironment';
 import { EXTENSION_ID } from '../../constants';
 
+
 async function runAllExtensionTests(testsRoot: string, clb: (error: Error | null, failures?: number) => void): Promise<any> {
 	// Ensure the dev-mode extension is activated
 	await vscode.extensions.getExtension(EXTENSION_ID)!.activate();

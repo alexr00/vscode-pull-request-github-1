@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as buffer from 'buffer';
 import * as path from 'path';
 import equals from 'fast-deep-equal';

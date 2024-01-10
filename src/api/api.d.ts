@@ -3,12 +3,14 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { CancellationToken, Disposable, Event, Uri } from 'vscode';
 import { APIState, PublishEvent } from '../@types/git';
 
 export interface InputBox {
 	value: string;
 }
+
 
 export { RefType } from './api1';
 

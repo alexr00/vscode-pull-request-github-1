@@ -3,6 +3,7 @@ import { parseDiffHunk, DiffHunk, getModifiedContentFromDiffHunk } from '../../c
 import { DiffLine, DiffChangeType } from '../../common/diffHunk';
 import {
 	getDiffLineByPosition,
+
 } from '../../common/diffPositionMapping';
 
 const diff_hunk_0 = [

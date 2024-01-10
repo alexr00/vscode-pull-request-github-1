@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 // Define TextEncoder + TextDecoder globals for both browser and node runtimes
 //
 // Proper fix: https://github.com/microsoft/TypeScript/issues/31535

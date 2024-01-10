@@ -3,6 +3,7 @@ import { SinonSandbox } from 'sinon';
 
 /**
  * Intercept calls to `vscode.commands.registerCommand` for the lifetime of a Sinon sandbox. Store the
+
  * registered commands locally for testing.
  *
  * Without this installed, functions that attempt to register commands that are also registered during extension

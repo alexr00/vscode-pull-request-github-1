@@ -3,9 +3,11 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 function done<T>(promise: Promise<T>): Promise<void> {
 	return promise.then<void>(() => undefined);
 }
+
 
 export function throttle<T>(fn: () => Promise<T>): () => Promise<T> {
 	let current: Promise<T> | undefined;

@@ -3,6 +3,7 @@ import { default as assert } from 'assert';
 
 interface IGrandChild {
 	attr: number;
+
 }
 
 const GrandChildBuilder = createBuilderClass<IGrandChild>()({

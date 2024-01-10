@@ -3,6 +3,7 @@ import { OctokitCommon } from '../../../github/common';
 
 export type TeamUnion = OctokitCommon.PullsListReviewRequestsResponseTeamsItem;
 
+
 export const TeamBuilder = createBuilderClass<TeamUnion>()({
 	id: { default: 1 },
 	node_id: { default: 'MDQ6VGVhbTE=' },

@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import { IAccount } from '../github/interface';
 import { DiffHunk } from './diffHunk';
@@ -11,6 +12,7 @@ export enum DiffSide {
 	LEFT = 'LEFT',
 	RIGHT = 'RIGHT',
 }
+
 
 export enum ViewedState {
 	DISMISSED = 'DISMISSED',

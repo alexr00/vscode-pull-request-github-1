@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { SinonSandbox } from 'sinon';
 import { QueryOptions, ApolloQueryResult, FetchResult, MutationOptions, NetworkStatus, OperationVariables } from 'apollo-boost';
 

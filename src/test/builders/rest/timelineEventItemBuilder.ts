@@ -3,6 +3,7 @@ import { createBuilderClass } from '../base';
 import { OctokitCommon } from '../../../github/common';
 
 export const TimelineEventItemBuilder = createBuilderClass<OctokitCommon.IssuesListEventsForTimelineResponseData[0]>()({
+
 	id: { default: 1 },
 	node_id: { default: 'MDEwOklzc3VlRXZlbnQx' },
 	url: { default: 'https://api.github.com/repos/octocat/Hello-World/issues/events/1' },

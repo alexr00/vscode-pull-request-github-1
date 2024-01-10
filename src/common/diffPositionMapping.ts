@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { DiffChangeType, DiffHunk, DiffLine, parseDiffHunk } from './diffHunk';
 
 /**
@@ -12,7 +13,8 @@ import { DiffChangeType, DiffHunk, DiffLine, parseDiffHunk } from './diffHunk';
  */
 export function getZeroBased(line: number): number {
 	if (line === undefined || line === 0) {
-		return 0;
+		re
+		turn 0;
 	}
 
 	return line - 1;

@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { RemoteSource, RemoteSourceProvider } from './@types/git';
 import { AuthProvider } from './common/authentication';
 import { OctokitCommon } from './github/common';

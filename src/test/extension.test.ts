@@ -3,6 +3,7 @@ import { parseDiffHunk } from '../common/diffHunk';
 
 describe('Extension Tests', function () {
 	describe('parseDiffHunk', () => {
+
 		it('should handle empty string', () => {
 			const diffHunk = parseDiffHunk('');
 			const itr = diffHunk.next();

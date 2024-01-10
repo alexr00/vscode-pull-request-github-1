@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import { createPRNodeUri, fromPRNodeUri, Schemes } from '../common/uri';
 import { dispose } from '../common/utils';

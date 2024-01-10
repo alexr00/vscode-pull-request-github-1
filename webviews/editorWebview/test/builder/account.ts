@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import { IAccount } from '../../../../src/github/interface';
 import { createBuilderClass } from '../../../../src/test/builders/base';
 

@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import { ITelemetry } from '../common/telemetry';
 import { JSDOC_NON_USERS, PHPDOC_NON_USERS } from '../common/user';

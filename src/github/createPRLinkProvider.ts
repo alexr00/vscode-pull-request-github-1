@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as vscode from 'vscode';
 import { PR_SETTINGS_NAMESPACE, TERMINAL_LINK_HANDLER } from '../common/settingKeys';
 import { ReviewManager } from '../view/reviewManager';

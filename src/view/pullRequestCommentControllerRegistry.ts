@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
+
 import * as vscode from 'vscode';
 import { fromPRUri } from '../common/uri';
 import { FolderRepositoryManager } from '../github/folderRepositoryManager';

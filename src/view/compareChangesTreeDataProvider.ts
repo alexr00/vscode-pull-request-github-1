@@ -3,6 +3,7 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 import * as pathLib from 'path';
 import * as vscode from 'vscode';
 import { Change, Commit } from '../api/api';

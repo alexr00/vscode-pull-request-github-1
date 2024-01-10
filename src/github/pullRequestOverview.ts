@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
+
 import * as vscode from 'vscode';
 import { onDidUpdatePR, openPullRequestOnGitHub } from '../commands';
 import { IComment } from '../common/comment';

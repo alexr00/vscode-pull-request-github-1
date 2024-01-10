@@ -3,11 +3,13 @@
  *  Licensed under the MIT License. See License.txt in the project root for license information.
  *--------------------------------------------------------------------------------------------*/
 
+
 export enum GitHubServerType {
 	None,
 	GitHubDotCom,
 	Enterprise
 }
+
 
 export enum AuthProvider {
 	github = 'github',

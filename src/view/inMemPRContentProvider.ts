@@ -4,6 +4,7 @@
  *--------------------------------------------------------------------------------------------*/
 'use strict';
 
+
 import * as vscode from 'vscode';
 import { GitApiImpl } from '../api/api1';
 import { DiffChangeType, getModifiedContentFromDiffHunk } from '../common/diffHunk';
